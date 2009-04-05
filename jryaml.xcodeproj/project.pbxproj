@@ -284,7 +284,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = jryaml_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = jryaml;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -302,7 +301,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = jryaml_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = jryaml;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -317,6 +315,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/yaml-0.1.2\"";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;
@@ -331,6 +330,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/yaml-0.1.2\"";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;
 			};
