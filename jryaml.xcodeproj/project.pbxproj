@@ -17,6 +17,10 @@
 		79B10FF80F88602A0088667B /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 79B10FEF0F88602A0088667B /* writer.c */; };
 		79B10FF90F88602A0088667B /* yaml_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B10FF00F88602A0088667B /* yaml_private.h */; };
 		79B110010F88606A0088667B /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B110000F88606A0088667B /* yaml.h */; };
+		79B110170F88617B0088667B /* MDYAML.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B110130F88617B0088667B /* MDYAML.h */; };
+		79B110180F88617B0088667B /* MDYAML.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B110140F88617B0088667B /* MDYAML.m */; };
+		79B110190F88617B0088667B /* NSBoolean.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B110150F88617B0088667B /* NSBoolean.h */; };
+		79B1101A0F88617B0088667B /* NSBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B110160F88617B0088667B /* NSBoolean.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +41,10 @@
 		79B10FEF0F88602A0088667B /* writer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = writer.c; sourceTree = "<group>"; };
 		79B10FF00F88602A0088667B /* yaml_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml_private.h; sourceTree = "<group>"; };
 		79B110000F88606A0088667B /* yaml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml.h; sourceTree = "<group>"; };
+		79B110130F88617B0088667B /* MDYAML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDYAML.h; sourceTree = "<group>"; };
+		79B110140F88617B0088667B /* MDYAML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDYAML.m; sourceTree = "<group>"; };
+		79B110150F88617B0088667B /* NSBoolean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBoolean.h; sourceTree = "<group>"; };
+		79B110160F88617B0088667B /* NSBoolean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBoolean.m; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* jryaml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jryaml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -96,6 +104,10 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				79B110130F88617B0088667B /* MDYAML.h */,
+				79B110140F88617B0088667B /* MDYAML.m */,
+				79B110150F88617B0088667B /* NSBoolean.h */,
+				79B110160F88617B0088667B /* NSBoolean.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -169,6 +181,8 @@
 			files = (
 				79B10FF90F88602A0088667B /* yaml_private.h in Headers */,
 				79B110010F88606A0088667B /* yaml.h in Headers */,
+				79B110170F88617B0088667B /* MDYAML.h in Headers */,
+				79B110190F88617B0088667B /* NSBoolean.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +250,8 @@
 				79B10FF60F88602A0088667B /* reader.c in Sources */,
 				79B10FF70F88602A0088667B /* scanner.c in Sources */,
 				79B10FF80F88602A0088667B /* writer.c in Sources */,
+				79B110180F88617B0088667B /* MDYAML.m in Sources */,
+				79B1101A0F88617B0088667B /* NSBoolean.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +319,7 @@
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/yaml-0.1.2\"";
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.4;
+				SDKROOT = macosx10.5;
 			};
 			name = Debug;
 		};
@@ -316,7 +332,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/yaml-0.1.2\"";
 				PREBINDING = NO;
-				SDKROOT = macosx10.4;
+				SDKROOT = macosx10.5;
 			};
 			name = Release;
 		};
