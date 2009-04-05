@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79B10FF10F88602A0088667B /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 79B10FE80F88602A0088667B /* api.c */; };
+		79B10FF20F88602A0088667B /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = 79B10FE90F88602A0088667B /* dumper.c */; };
+		79B10FF30F88602A0088667B /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 79B10FEA0F88602A0088667B /* emitter.c */; };
+		79B10FF40F88602A0088667B /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 79B10FEB0F88602A0088667B /* loader.c */; };
+		79B10FF50F88602A0088667B /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 79B10FEC0F88602A0088667B /* parser.c */; };
+		79B10FF60F88602A0088667B /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 79B10FED0F88602A0088667B /* reader.c */; };
+		79B10FF70F88602A0088667B /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 79B10FEE0F88602A0088667B /* scanner.c */; };
+		79B10FF80F88602A0088667B /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 79B10FEF0F88602A0088667B /* writer.c */; };
+		79B10FF90F88602A0088667B /* yaml_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B10FF00F88602A0088667B /* yaml_private.h */; };
+		79B110010F88606A0088667B /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B110000F88606A0088667B /* yaml.h */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -17,6 +27,16 @@
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* jryaml_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jryaml_Prefix.pch; sourceTree = "<group>"; };
+		79B10FE80F88602A0088667B /* api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = api.c; sourceTree = "<group>"; };
+		79B10FE90F88602A0088667B /* dumper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dumper.c; sourceTree = "<group>"; };
+		79B10FEA0F88602A0088667B /* emitter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = emitter.c; sourceTree = "<group>"; };
+		79B10FEB0F88602A0088667B /* loader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loader.c; sourceTree = "<group>"; };
+		79B10FEC0F88602A0088667B /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
+		79B10FED0F88602A0088667B /* reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reader.c; sourceTree = "<group>"; };
+		79B10FEE0F88602A0088667B /* scanner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
+		79B10FEF0F88602A0088667B /* writer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = writer.c; sourceTree = "<group>"; };
+		79B10FF00F88602A0088667B /* yaml_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml_private.h; sourceTree = "<group>"; };
+		79B110000F88606A0088667B /* yaml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml.h; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* jryaml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jryaml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -46,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				08FB77AEFE84172EC02AAC07 /* Classes */,
+				79B10FE50F885FF90088667B /* libyaml */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
@@ -105,6 +126,40 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		79B10FE50F885FF90088667B /* libyaml */ = {
+			isa = PBXGroup;
+			children = (
+				79B10FFF0F88604D0088667B /* include */,
+				79B10FE70F885FFF0088667B /* src */,
+			);
+			name = libyaml;
+			path = "yaml-0.1.2";
+			sourceTree = "<group>";
+		};
+		79B10FE70F885FFF0088667B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				79B10FE80F88602A0088667B /* api.c */,
+				79B10FE90F88602A0088667B /* dumper.c */,
+				79B10FEA0F88602A0088667B /* emitter.c */,
+				79B10FEB0F88602A0088667B /* loader.c */,
+				79B10FEC0F88602A0088667B /* parser.c */,
+				79B10FED0F88602A0088667B /* reader.c */,
+				79B10FEE0F88602A0088667B /* scanner.c */,
+				79B10FEF0F88602A0088667B /* writer.c */,
+				79B10FF00F88602A0088667B /* yaml_private.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		79B10FFF0F88604D0088667B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				79B110000F88606A0088667B /* yaml.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -112,6 +167,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B10FF90F88602A0088667B /* yaml_private.h in Headers */,
+				79B110010F88606A0088667B /* yaml.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B10FF10F88602A0088667B /* api.c in Sources */,
+				79B10FF20F88602A0088667B /* dumper.c in Sources */,
+				79B10FF30F88602A0088667B /* emitter.c in Sources */,
+				79B10FF40F88602A0088667B /* loader.c in Sources */,
+				79B10FF50F88602A0088667B /* parser.c in Sources */,
+				79B10FF60F88602A0088667B /* reader.c in Sources */,
+				79B10FF70F88602A0088667B /* scanner.c in Sources */,
+				79B10FF80F88602A0088667B /* writer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,9 +300,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/yaml-0.1.2\"";
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx10.4;
 			};
 			name = Debug;
 		};
@@ -248,8 +314,9 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/yaml-0.1.2\"";
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx10.4;
 			};
 			name = Release;
 		};
