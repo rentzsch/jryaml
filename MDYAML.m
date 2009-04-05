@@ -52,7 +52,7 @@
 	NSMutableArray *array = [NSMutableArray array];
 	yaml_node_item_t *item;
 	for (item = node->data.sequence.items.start; item < node->data.sequence.items.top; item ++) {
-		yaml_node_t *node = yaml_document_get_node(document, (int)item);
+		yaml_node_t *node = yaml_document_get_node(document, *item);
 		id value = [MDYAML objectWithYamlDocument:document node:node];
 		[array addObject:value];
 	}
