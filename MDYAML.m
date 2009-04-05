@@ -7,6 +7,7 @@
 //
 
 #import "MDYAML.h"
+#import <yaml.h>
 #import "NSBoolean.h"
 
 @interface NSString (regex)

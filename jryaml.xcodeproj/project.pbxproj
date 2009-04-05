@@ -17,7 +17,7 @@
 		79B10FF80F88602A0088667B /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 79B10FEF0F88602A0088667B /* writer.c */; };
 		79B10FF90F88602A0088667B /* yaml_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B10FF00F88602A0088667B /* yaml_private.h */; };
 		79B110010F88606A0088667B /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B110000F88606A0088667B /* yaml.h */; };
-		79B110170F88617B0088667B /* MDYAML.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B110130F88617B0088667B /* MDYAML.h */; };
+		79B110170F88617B0088667B /* MDYAML.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B110130F88617B0088667B /* MDYAML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79B110180F88617B0088667B /* MDYAML.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B110140F88617B0088667B /* MDYAML.m */; };
 		79B110190F88617B0088667B /* NSBoolean.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B110150F88617B0088667B /* NSBoolean.h */; };
 		79B1101A0F88617B0088667B /* NSBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B110160F88617B0088667B /* NSBoolean.m */; };
